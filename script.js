@@ -1,7 +1,7 @@
 const questions = [
   {
-    question: "Question 1: What is the capital of France?",
-    choices: ["Paris", "London", "Rome", "Madrid"],
+    question: "Question 1: What does CSS stand for?",
+    choices: ["Cascading Style Sheets", "Creative Style Solutions", "Computer Style Standards", "Coded Styling Strategies"],
     correctAnswer: 0
   },
   {
