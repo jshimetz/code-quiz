@@ -9,8 +9,48 @@ const questions = [
     choices: ["Java", "Python", "HTML", "CSS"],
     correctAnswer: 2
   },
-  // Add more questions...
+  {
+    question: "Question 3: What does HTML stand for?",
+    choices: ["Hyperlinks and Text Markup Language", "Home Tool Markup Language", "Hyper Text Markup Language", "Hyperlink Text Markup Language"],
+    correctAnswer: 2
+  },
+  {
+    question: "Question 4: Which CSS property is used to change the text color of an element?",
+    choices: ["color", "background-color", "text-color", "font-color"],
+    correctAnswer: 0
+  },
+  {
+    question: "Question 5: What is the purpose of the 'querySelectorAll' method in JavaScript?",
+    choices: ["To select and modify multiple elements with the same CSS selector", "To select and modify the first element with a given CSS selector", "To select and modify elements based on their class names", "To select and modify elements based on their tag names"],
+    correctAnswer: 0
+  },
+  {
+    question: "Question 6: What does the 'addEventListener' method do in JavaScript?",
+    choices: ["Adds a class to an element", "Adds a style to an element", "Adds an event handler function to an element", "Adds an attribute to an element"],
+    correctAnswer: 2
+  },
+  {
+    question: "Question 7: Which HTML tag is used to define an unordered list?",
+    choices: ["<ol>", "<li>", "<ul>", "<dl>"],
+    correctAnswer: 2
+  },
+  {
+    question: "Question 8: Which CSS property is used to create space between the border and content of an element?",
+    choices: ["padding", "margin", "border-spacing", "border-width"],
+    correctAnswer: 0
+  },
+  {
+    question: "Question 9: What is the JavaScript operator used to concatenate two or more strings?",
+    choices: ["*", "+", "-", "&"],
+    correctAnswer: 1
+  },
+  {
+    question: "Question 10: Which HTML attribute is used to specify an image source?",
+    choices: ["src", "href", "alt", "img"],
+    correctAnswer: 0
+  }
 ];
+
 
 const quizScreen = document.getElementById("quiz-screen");
 const startButton = document.getElementById("start-btn");
