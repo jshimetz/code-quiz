@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-top: 30px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  
+  #timer {
+    margin-top: 20px;
+  }
+  
+  #feedback {
+    margin-top: 10px;
+  }
+  
+  #game-over-screen input {
+    margin-top: 10px;
+    padding: 5px;
+  }
+  
+  #game-over-screen button {
+    margin-top: 10px;
+    padding: 10px 20px;
+  }
+  
